@@ -1,5 +1,5 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
-
+--- {{ $data }}---- <br>
 {{- if $data.homepage.banner.enable }}
 {{- with $data.homepage.banner }}
 <!-- hero area -->
