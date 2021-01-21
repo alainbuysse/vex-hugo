@@ -23,3 +23,5 @@ fields:
   type: image_gallery
   config: {}
   label: gall
+pages:
+- exampleSite/content/english/ttttt.md
